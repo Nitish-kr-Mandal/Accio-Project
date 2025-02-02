@@ -1,0 +1,44 @@
+:root{
+    background-color: black;
+    color: white;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+    width: 50%;
+    gap: 16px;
+}
+.main input{
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+.main input::placeholder{
+    color: white;
+}
+.main input:focus{
+    outline: none;
+}
+#submitBtn{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+
+}
